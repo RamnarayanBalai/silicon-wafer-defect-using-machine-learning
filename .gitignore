@@ -1,0 +1,53 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data
+# Exclude all data files but keep .gitkeep for directory structure
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Results and logs
+results/figures/*
+!results/figures/.gitkeep
+results/tables/*
+!results/tables/.gitkeep
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Machine Learning artifacts
+*.pt
+*.pth
+*.h5
+*.keras
+models/
